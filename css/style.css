@@ -192,6 +192,12 @@ body {
 .mobile { 
     padding: 48px 0 80px 0;
 }
+
+.mobile .row {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
 .sec-txt { 
     font-size: 17px;
     text-align: center;
@@ -209,13 +215,29 @@ body {
 .mobile-card { 
     margin: 0 auto;
     position: relative;
-    max-width: 320px;
+    width: 320px;
+    height: 280px;
 }
-.mobile-card__img {
-    max-width: 100%;
-    display: block;
-    margin: 0 auto;
+
+.mobile-card_1 { 
+    background: url('../img/card1.jpg') center center/contain no-repeat;
 }
+.mobile-card_2 { 
+    background: url('../img/card2.jpg') center center/contain no-repeat;
+}
+.mobile-card_3 { 
+    background: url('../img/card3.jpg') center center/contain no-repeat;
+}
+.mobile-card_4 { 
+    background: url('../img/card4.jpg') center center/contain no-repeat;
+}
+.mobile-card_5 { 
+    background: url('../img/card5.jpg') center center/contain no-repeat;
+}
+.mobile-card_6 { 
+    background: url('../img/card6.jpg') center center/contain no-repeat;
+}
+
 .mobile-card__heading { 
     position: absolute;
     width: 100%;
