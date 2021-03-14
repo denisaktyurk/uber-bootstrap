@@ -275,6 +275,7 @@ body {
 .condition-list { 
     font-size: 17px;
     color: #222222;
+    list-style-type: none;
 }
 .condition-list_blue { }
 .condition-text { 
@@ -285,3 +286,114 @@ body {
 }
 
 .condition-list_red { }
+
+.world {
+    position: relative;
+    padding: 48px 0;
+    min-height: 718px;
+    background: url('../img/bg/world_bg.jpg') center center/cover no-repeat;
+}
+.world__sec-txt { 
+    margin-bottom: 450px;
+}
+
+.world__link {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 15px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #1FBAD6;
+}
+
+.ftr { 
+    padding: 50px 0 30px 0;
+}
+.ftr-wrapper { 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.ftr-socials {
+    padding: 0;
+    display: flex;
+    align-items: center;
+    flex: 1 0 0;
+    list-style-type: none;
+}
+.ftr-socials__item { 
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #070716;
+    border-radius: 50%;
+}
+
+.ftr-socials__item + .ftr-socials__item  {
+    margin-left: 6px;
+}
+
+.ftr-socials__link { 
+    color: #fff;
+}
+.ftr-nav { 
+    text-align: center;
+}
+.ftr-nav__main-row { 
+
+}
+
+.ftr-nav__main-row a {
+    font-weight: 300;
+    font-size: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #070716;
+}
+
+.ftr-nav__main-row a + a {
+    margin-left: 40px;
+}
+
+.ftr-nav__secondary-row { 
+    margin-bottom: 10px;
+}
+
+.ftr-nav__secondary-row a {
+    font-weight: 300;
+    font-size: 11px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #999999;
+}
+
+.ftr-nav__secondary-row a + a {
+    margin-left: 21px;
+}
+.ftr-nav__lang { 
+    font-size: 11px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #1FBAD6;
+}
+.ftr-markets { 
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex: 1 0 0;
+    list-style-type: none;
+}
+.ftr-markets__item { 
+    width: 100px;
+    height: 27px;
+    background: url('../img/markets.png') center center/cover no-repeat;
+}
+
+.ftr-markets__link_andr { }
+.ftr-markets__link_apple { }
+.ftr-markets__link_third { }
