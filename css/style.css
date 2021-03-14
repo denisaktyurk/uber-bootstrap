@@ -7,20 +7,31 @@ body {
 
 .hdr {
     position: relative;
+    min-height: 50px;
 }
 
 .nav {
+    position: fixed;
+    width: 100%;
+    min-height: 50px;
+    z-index: 1;
     background-color: #212121;
 }
 
 .nav-list {
-    padding: 10px 0;
+    padding: 13px 70px;
     margin: 0;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     list-style-type: none;
 }
+
+.nav-list__item {
+    border-right: 2px dotted black;
+    padding-right: 28px;
+}
+
 
 .nav-list__link {
     color: #fff;
@@ -31,6 +42,7 @@ body {
 
 .subheader {
     position: absolute;
+    top: 50px;
     width: 100%;
     background: rgba(0,0,0,.6);
     padding: 19px 0 18px 0;
